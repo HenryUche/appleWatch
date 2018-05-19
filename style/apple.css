@@ -1,0 +1,38 @@
+*{
+	box-sizing: border-box;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+header{
+
+	/*padding-left:100px;
+	padding-right: 20px;*/
+}
+
+header>ul{
+	display: flex;
+
+	/*padding: 0;*/
+	justify-content: space-around;
+
+}
+
+header>ul>li{
+	flex: 1;
+	list-style: none;
+}
+
+header> ul>.image{
+	flex: 3;
+	
+	
+
+	
+}
+
