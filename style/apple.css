@@ -7,25 +7,53 @@ body, html{
 }
 
 header{
-
-	padding-left:100px;
-	padding-right: 20px;
+	display: flex;
+	border: 0.6px solid;
+	height: 60px;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+header>div{
+	flex: none;
 }
 
 header>ul{
-	display: flex;
-
-	padding: 0;
-	justify-content: space-around;
-
-}
-
-header>ul>li{
-	flex: 1;
+	display:flex;
+	justify-content: space-between;
 	list-style: none;
 }
-
-header> ul>.image{
-	flex: 3;
+.list-item + .list-item {
+	padding-left: 80px;
 }
 
+
+/*ul>li{
+	display: flex;
+	justify-content: space-around;
+}*/
+
+/*header>ul>li{
+	
+	flex: 1;
+	list-style: none;
+}*/
+
+/*header> ul>.image{
+	flex: 3;
+}*/
+
+/**{
+
+	box-sizing: border-box;
+}
+
+body{
+
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	min-height: 100vh;
+	list-style: none;
+}*/
