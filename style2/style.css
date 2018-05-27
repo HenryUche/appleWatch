@@ -1,0 +1,225 @@
+*{
+	box-sizing: border;
+}
+
+body{
+	margin-right: 200px;
+	margin-left: 200px;
+	padding: 0;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.header{
+	width: 100%;
+	height: 60px;
+	display: flex;
+}
+.logo{
+	margin-left: 40px;
+	width:70%;
+	height: inherit;
+}
+ img{
+     max-width: 100%;
+     max-height: 100%;
+}
+.navigation{
+	width: 100%;
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: space-around;
+	padding:0;
+	margin-right:150px;
+}
+.description{
+	display: flex;
+	margin-top: 50px;
+	
+	height: 320px;
+	width:100%;
+
+}
+.description-item{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 50%;
+	padding-left: 90px;
+	margin:0;
+	padding-bottom: 50px;
+
+}
+.image{
+	width: 100%;
+	background-image: url(../img/chosen1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 300px 400px;
+	/*margin-right: 150px;*/
+
+}
+.description>.description-item>.buyNow{
+	margin-top: 10px;
+	background-color: black;
+	border-radius: 10px;
+	width: 100px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.use-health{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 300px;
+    background-image: url(../img/runner1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 900px 600px;
+
+
+
+}
+
+.use-health>p, h3{
+	margin-top:0;
+}
+
+.gallery{
+	width: 100%;
+	height: 500px;
+	background-color: #DCD9CD;
+	display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.img1,.img2,.img3,.img4 {
+    
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+
+}
+
+.img1>h4{
+	margin-top: 0;
+	text-transform: uppercase;
+}
+.img2>h4{
+	margin-top: 0;
+	text-transform: uppercase;
+
+}
+.img3>h4{
+	margin-top: 0;
+	text-transform: uppercase;
+
+}
+.img4>h4{
+	margin-top: 0;
+	text-transform: uppercase;
+
+}
+
+
+.img1{
+
+	width: 35%;
+	height: 200px;
+	background-color: white;
+	margin-top: 20px;
+	margin-right: 60px;
+	background-image: url(../img/apple2.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 150px 150px;
+
+}
+.img2{
+	width: 35%;
+	height: 200px;
+	margin-top: 20px;
+	background-color: white;
+	background-image: url(../img/apple3.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 150px 150px;
+}
+.img3{
+	width: 35%;
+	height: 200px;
+	background-color: white;
+	margin-right: 60px;
+	background-image: url(../img/apple4.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 150px 150px;
+}
+.img4{
+	width: 35%;
+	height: 200px;
+	background-color: white;
+	background-image: url(../img/appp.jpg);
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 150px 150px;
+}
+.gallery>.img1>.buy{
+
+	background-color: black;
+	border-radius: 10px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+
+}.gallery>.img2>.buy{
+
+	background-color: black;
+	border-radius: 10px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+
+}.gallery>.img3>.buy{
+
+	background-color: black;
+	border-radius: 10px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+
+}.gallery>.img4>.buy{
+
+	background-color: black;
+	border-radius: 10px;
+	width: 50px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+
+}
+
+.jump{
+	height: 600px;
+	width: 100%;
+	background-image: url(../img/jump.jpg);
+	background-size: 900px 600px;
+    background-repeat: no-repeat;
+}
+
